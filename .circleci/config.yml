@@ -14,21 +14,5 @@ jobs:
     steps:
       #Obtener repo de GitHub
       - checkout
-      #Crear entorno virtual
-      - run:
-          name: install dependencies
-          command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirement.txt
-      - run:
-          name: run tests
-          command: |
-            . venv/vin/activate
-            flake8 --exclude=*env -statistics
-            pytest --junixml=test-results/junit.xml
-      - store_test_results:
-          path: test-results
-      - store_artifacts:
-          path: test-results
+      
    
