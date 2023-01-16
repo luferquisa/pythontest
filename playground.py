@@ -17,9 +17,9 @@ def extensionarchivo(filename):
 def esparoimpar(n):
 	mod = n % 2
 	if mod > 0:
-		return "par"
-	else:
 		return "impar"
+	else:
+		return "par"
 
 if __name__ == "__main__":
 	print("hola")
