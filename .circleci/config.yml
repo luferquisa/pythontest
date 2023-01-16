@@ -19,6 +19,12 @@ jobs:
             sudo apt install libcairo2-dev
             sudo apt install cloud-init
             pip install -r requirements.txt
+      - run:
+          name: run tests
+          command: |
+            . venv/vin/activate
+            flake8 --exclude=*env -statistics
+            pytest --junixml=test-results/junit.xml
       - store_test_results:
           path: test-results
       - store_artifacts:
