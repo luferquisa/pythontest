@@ -23,7 +23,6 @@ dbus-python==1.2.18
 decorator==4.4.2
 defusedxml==0.7.1
 distro==1.7.0
-distro-info===1.1build1
 ec2-hibinit-agent==1.0.0
 energycalc==0.3
 entrypoints==0.4
