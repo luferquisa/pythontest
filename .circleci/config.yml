@@ -17,7 +17,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/Bin/activate
+            . venv/bin/activate
             flake8 --exclude=*env -statistics
             pytest --junixml=test-results/junit.xml
       - store_test_results:
