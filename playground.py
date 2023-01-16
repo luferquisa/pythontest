@@ -14,6 +14,13 @@ def extensionarchivo(filename):
 	split = filename.split(".")
 	return split[-1]
 
+def esparoimpar(n):
+	mod = num % 2
+	if mod > 0:
+		return "par"
+	else:
+		return "impar"
+
 if __name__ == "__main__":
 	print("hola")
 	r=1.1
