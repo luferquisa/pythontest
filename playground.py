@@ -15,7 +15,7 @@ def extensionarchivo(filename):
 	return split[-1]
 
 def esparoimpar(n):
-	mod = num % 2
+	mod = n % 2
 	if mod > 0:
 		return "par"
 	else:
