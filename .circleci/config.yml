@@ -15,8 +15,5 @@ jobs:
       #Obtener repo de GitHub
       - checkout
       #Crear entorno virtual
-      - run:
-          name: install dependencies
-          command: |
-            pip install -r requirement.txtv
+      - run: echo "this is the build job"
       
