@@ -14,4 +14,4 @@ class TestPlayground:
 		assert playground.extensionarchivo("luisa.pdf")=="pdf"
 
 	def test_esparoimpar(self):
-		assert playground.esparoimpar(4) == "par"
+		assert playground.esparoimpar(5) == "impar"
