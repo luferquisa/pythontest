@@ -18,6 +18,9 @@ def esparoimpar(n):
 	mod = n % 2
 	if mod > 0:
 		return "impar"
+
+def valorascii(c):
+	return ord(c)
 	else:
 		return "par"
 
