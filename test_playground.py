@@ -17,4 +17,4 @@ class TestPlayground:
 		assert playground.esparoimpar(5) == "impar"
 
 	def test_valorascii(sefl):
-		assert playground.valorascii(b) == 98
+		assert playground.valorascii('b') == 98
