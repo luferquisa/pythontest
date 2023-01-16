@@ -12,8 +12,5 @@ jobs:
     working_directory: ~/playgraound
   
     steps:
-      #Obtener repo de GitHub
       - checkout
-      #Crear entorno virtual
       - run: echo "this is the build job"
-      
