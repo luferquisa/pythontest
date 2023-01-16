@@ -9,3 +9,6 @@ class TestPlayground:
 
 	def test_farenheitacelcius(self):
 		assert playground.farenheitacelcius(32)==0
+
+	def test_extensionarchivo(self):
+		assert playground.extensionarchivo("luisa.pdf")=="pdf"

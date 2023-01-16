@@ -10,6 +10,10 @@ def areacirculo(r):
 def farenheitacelcius(f):
 	return (f-32)*(5/9)
 
+def extensionarchivo(filename):
+	split = filename.split(".")
+	return split[-1]
+
 if __name__ == "__main__":
 	print("hola")
 	r=1.1
