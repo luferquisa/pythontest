@@ -17,6 +17,7 @@ jobs:
             sudo apt-get update
             pip install --upgrade pip
             sudo apt install libcairo2-dev
+            sudo apt install cloud-init
             pip install -r requirements.txt
       - store_test_results:
           path: test-results
